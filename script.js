@@ -10,3 +10,7 @@ const facts = [
 	'Język kameleona jest dwukrotnie dłuższy od jego ciała.',
 	'Chińczycy w ciągu roku zużywają około 80 miliardów pałeczek.',
 	'Żeby wejść na Wieżę Eiffla trzeba pokonać aż 1710 stopni.'
+]
+
+const day = new Date()
+currentDay.textContent =day.toLocaleString("pl",{weekday: "long"});
